@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  background-color: #ACAEC2;
+  font-family: sans-serif;
+}
+
+.footer{
+  text-align: left;
+  color: #ffff;
+  clear: both;
+  width: 100%;
+  height:100%;
+  padding: 20px;
+  background-color:#16289e;
+}
+
+.left-panel {
+  background-color: #ffff;
+  margin: 1%;
+  width: 20%;
+  border-radius: 5px 5px 5px 5px;
+  height: auto;
+  float: left;
+  box-shadow: 0px 0px 10px rgb(135, 137, 250);
+}
+
+.right-panel {
+  background-color: #ffff;
+  margin: 1%;
+  width: 75%;
+  height: auto;
+  float: left;
+  box-shadow: 0px 0px 10px rgb(163, 163, 163);
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.logounram {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-panel {
+  text-align: center;
+  color: #ffff;
+  padding: 10px;
+  background-color: #16289e;
+}
+
+.sub-panel-1 a {
+  text-align: center;
+  padding: 3px;
+  color:  rgb(109, 109, 109);;
+}
+
+.cover {
+  clear: right;
+  height: 350px;
+  background-image: url(./image/cover.jpg);
+  background-size: 100% auto;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color:  #16289e;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+li a {
+  
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 0px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color:  #f0b101;
+}
+
+.deskripsi {
+padding:20px 200px;
+text-align: justify;
+
+}
+
+
+.deskripsi h1{
+  font-size: 40px;
+  color: black;
+  float: right;
+
+}
+.deskripsi h2{
+  font-size: 30px;
+  color: black;
+  float : right;
+}
+
+.deskripsi p{
+  font-size: 20px;
+
+}
+
+.polaroid {
+  float: left;
+  margin-left:25px ;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.garis {
+  border-bottom: 4px solid rgb(109, 109, 109);
+}
